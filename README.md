@@ -86,7 +86,7 @@ src/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/taskflow.git
+git clone https://github.com/Sa3dMustafa/To-Do-App--
 cd taskflow
 
 # 2. Install dependencies
@@ -113,12 +113,6 @@ npm run build
 3. Commit your changes — `git commit -m "feat: add my feature"`
 4. Push — `git push origin feature/my-feature`
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-MIT © [Your Name](https://github.com/your-username)
 
 ---
 
