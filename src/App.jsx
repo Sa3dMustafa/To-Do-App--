@@ -96,7 +96,7 @@ function App() {
               <h1 className="text-4xl font-black tracking-tight">
                 TaskFlow 🚀
               </h1>
-              <p className="text-slate-500 mt-1.5 text-[15px]">
+              <p className="text-slate-400 mt-1.5 text-[15px]">
                 Smart productivity dashboard for modern workflow.
               </p>
             </div>
@@ -128,7 +128,7 @@ function App() {
           {/* ── Progress bar ── */}
           {total > 0 && (
             <div className="flex items-center gap-4 bg-white/3 border border-white/7 rounded-2xl px-4 py-3 mb-5">
-              <span className="text-[13px] text-slate-500 flex-shrink-0">
+              <span className="text-[13px] text-slate-400 flex-shrink-0">
                 Overall Progress
               </span>
               <div className="flex-1 h-1.5 bg-white/7 rounded-full overflow-hidden">
@@ -153,7 +153,7 @@ function App() {
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="🔍 Search tasks..."
-              className="flex-1 min-w-[180px] px-4 py-2.5 rounded-xl bg-white/4 border border-white/8 text-slate-300 text-sm outline-none focus:border-cyan-400 transition-colors placeholder:text-slate-600"
+              className="flex-1 min-w-[180px] px-4 py-2.5 rounded-xl bg-white/4 border border-white/8 text-slate-300 text-sm outline-none focus:border-cyan-400 transition-colors placeholder:text-slate-400"
             />
             <div className="flex gap-1.5">
               {["all", "easy", "medium", "hard"].map((p) => (
@@ -162,7 +162,7 @@ function App() {
                   type="button"
                   onClick={() => setFilterPriority(p)}
                   className={`
-                    px-3.5 py-2 rounded-[10px] border text-[13px] cursor-pointer capitalize transition-all duration-200
+                    px-3.5 py-2 rounded-[10px] border text-slate-200 text-[13px] cursor-pointer capitalize transition-all duration-200
                     ${
                       filterPriority === p
                         ? "border-cyan-400/40 bg-cyan-500/10 text-cyan-400 font-semibold"

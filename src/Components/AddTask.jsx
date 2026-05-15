@@ -31,7 +31,7 @@ function AddTask({ tasks, setTasks }) {
         </div>
         <div>
           <h2 className="text-[17px] font-bold text-slate-100">Create Task</h2>
-          <p className="text-[12px] text-slate-500 mt-0.5">
+          <p className="text-[12px] text-slate-400 mt-0.5">
             Organize your workflow efficiently
           </p>
         </div>
@@ -41,7 +41,7 @@ function AddTask({ tasks, setTasks }) {
 
         {/* Title */}
         <div>
-          <label className="text-[12px] text-slate-400 block mb-1.5">Task Title</label>
+          <label className="text-[12px] text-slate-300 block mb-1.5">Task Title</label>
           <input
             type="text"
             value={task.title}
